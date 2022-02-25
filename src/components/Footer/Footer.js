@@ -1,6 +1,6 @@
-import styles from "./Header.module.css";
+import styles from "./Footer.module.css";
 
-export default function Header({ text }) {
+export default function Footer({ text }) {
   return `
         <div>
             <h1 class="${styles.h1}">${text}</h1>

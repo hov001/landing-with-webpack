@@ -31,4 +31,7 @@ module.exports = {
   optimization: {
     minimizer: ["...", new CssMinimizerPlugin()],
   },
+  devServer: {
+    port: 4200,
+  },
 };

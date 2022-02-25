@@ -1,5 +1,4 @@
-import Header from "./components/Header/Header";
+import { homePage } from "./components/mapper";
+import render from "./service/render";
 
-const app = document.getElementById("app");
-
-app.insertAdjacentHTML("beforeend", Header({ text: "Hello world!!" }));
+render(homePage, document.getElementById("app"));
